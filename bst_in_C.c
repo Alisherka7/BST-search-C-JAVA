@@ -39,11 +39,11 @@ struct node* insert(struct node* node, int key)
   
 int main() 
 { 
-              50 
-           /     \ 
-          30      70 
-         /  \    /  \ 
-       20   40  60   80 */
+/*              50 
+             /     \ 
+            30      70 
+           /  \    /  \ 
+         20   40  60   80 */
     struct node* root = NULL; 
     root = insert(root, 50); 
     insert(root, 30); 
