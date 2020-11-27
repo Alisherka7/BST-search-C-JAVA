@@ -16,7 +16,7 @@ public class Main {
 
     Node root;
 
-    Main(){
+    Bst(){
         root = null;
     }
     void insert(int key){
@@ -49,9 +49,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	    Main bst = new Main();
+	Bst bst = new Main();
 
-	    bst.insert(50);
+	bst.insert(50);
         bst.insert(30);
         bst.insert(20);
         bst.insert(40);
